@@ -1,0 +1,19 @@
+body{
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+
+.container{
+  margin-top: 22%;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover{
+  color:black;
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
