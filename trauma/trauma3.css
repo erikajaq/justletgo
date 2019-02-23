@@ -1,0 +1,27 @@
+body{
+  font-family: 'EB Garamond', serif;
+  background-image: url(https://i.imgur.com/xq14eJe.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.container{
+  margin-left: 33%;
+  margin-top: 20%;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+
+a:hover{
+  color:white;
+  opacity: 1;
+  transition-timing-function: ease-in;
+  transition: 2s;
+}
