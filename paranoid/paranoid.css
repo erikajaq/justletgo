@@ -7,8 +7,8 @@ body{
 
 
 .container{
-  width:14%;
-  color:black;
+  width:12%;
+  color:white;
   margin-left: 70%;
   margin-top: 10%;
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
