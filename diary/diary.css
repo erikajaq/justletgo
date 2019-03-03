@@ -23,6 +23,17 @@ body{
 
 }
 
+a{
+  text-decoration: none;
+  color:white;
+
+}
+
+a:hover{
+  opacity: 0.5;
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
 #photo{
   width:80%;
 }
