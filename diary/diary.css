@@ -1,0 +1,43 @@
+body{
+  font-family: 'EB Garamond', serif;
+  color: white;
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  margin-left: -4.5%;
+  margin-top: 1%;
+}
+
+.row{
+  width: 100%;
+
+}
+
+.week{
+  height:50%;
+  font-size: 10pt;
+  margin-right: 8%;
+
+}
+
+#photo{
+  width:80%;
+}
+#photo img{
+  width:100%;
+}
+
+#number{
+  text-align: right;
+  margin-top: 1%;
+  font-size: 12pt;
+}
+
+img:hover{
+  opacity: .5;
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
