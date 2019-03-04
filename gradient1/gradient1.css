@@ -12,3 +12,8 @@ body{
   min-width: 100%;
   min-height: 100%;
 }
+
+#video-controls{
+  height:500px;
+  z-index: 100;
+}
