@@ -11,3 +11,9 @@ body{
   min-width: 100%;
   min-height: 100%;
 }
+
+.container{
+  text-align: center;
+  color:white;
+  z-index: 100;
+}
