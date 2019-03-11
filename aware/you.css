@@ -7,18 +7,18 @@
 }
 
 .container1{
-  width:50%;
+  width:30%;
   height: 100%;
   background-color: white;
   color:black;
   text-align: right;
-  margin-top: 2%;
+  margin-top: 12%;
 }
 
 .container2{
-  width:60%;
+  width:50%;
   background-color: white;
-  margin-top: 12%;
+  margin-top: 13%;
   font-size: 18pt;
 
 }
@@ -26,12 +26,11 @@
 .word{
 font-size: 70pt;
 text-align: right;
-margin-right: 20%;
+margin-right: 2%;
 margin-top: 55%;
 }
 
 
 .text{
-
   width: 100%;
 }
