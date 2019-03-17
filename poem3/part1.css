@@ -3,8 +3,20 @@ body{
   text-align: center;
 }
 
+#video{
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
 .container{
   margin-top: 18%;
+  z-index: 1;
 }
 
 a{
