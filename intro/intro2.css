@@ -20,7 +20,7 @@ body{
 .container2{
   width:25%;
   margin-right: 8%;
-  margin-top: 20%;
+  margin-top: 12%;
   -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein 8s; /* Firefox < 16 */
        -ms-animation: fadein 8s; /* Internet Explorer */
@@ -31,7 +31,7 @@ body{
 .container3{
   width:25%;
   margin-right: 1%;
-  margin-top: 5%;
+  margin-top: 25%;
   -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein 12s; /* Firefox < 16 */
        -ms-animation: fadein 12s; /* Internet Explorer */
@@ -41,7 +41,7 @@ body{
 
 .container4{
   width:25%;
-  margin-top: 50%;
+  margin-top: 2%;
   -webkit-animation: fadein 16s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein 16s; /* Firefox < 16 */
        -ms-animation: fadein 16s; /* Internet Explorer */
