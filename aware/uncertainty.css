@@ -61,6 +61,23 @@ animation-delay: 4.5s;
   width: 100%;
 }
 
+#next{
+  width:100%;
+  z-index: 101;
+  margin-left: 95%;
+  margin-top: -3.5%;
+
+}
+
+a{
+  text-decoration: none;
+  color: #595959
+}
+
+a:hover{
+  color: black;
+}
+
 /* Keyframes for the fade-in */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
