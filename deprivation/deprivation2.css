@@ -4,8 +4,6 @@ body{
 }
 
 
-
-
 .container{
   width:22%;
   color:white;
@@ -30,4 +28,9 @@ body{
 a{
   text-decoration: none;
   color:white;
+  opacity: 0.75;
+}
+
+a:hover{
+  opacity: 1;
 }
