@@ -1,0 +1,88 @@
+
+body{
+  font-family: 'EB Garamond', serif;
+  background-color: black;
+}
+
+.container{
+  width:100%;
+  font-size: 15pt;
+  color:white;
+
+}
+
+a:hover {
+  opacity: 0.65;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+
+#text{
+  margin-left: 12%;
+  margin-top: 15%;
+  opacity:0;
+  opacity: 1 \9; /*just in case ie*/
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
+#text2{
+  margin-left: 82%;
+  margin-top: 20%;
+  opacity:0;
+  opacity: 1 \9; /*just in case ie*/
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+  -webkit-animation-delay: 6.5s;
+  -moz-animation-delay: 6.5s;
+  animation-delay: 6.5s;
+}
+
+#video{
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 5s; /* Firefox < 16 */
+       -ms-animation: fadein 5s; /* Internet Explorer */
+        -o-animation: fadein 5s; /* Opera < 12.1 */
+           animation: fadein 5s;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+
+/* Keyframes for the fade-in */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
