@@ -87,6 +87,16 @@ a:hover{
 
 }
 
+.line7{
+  -webkit-animation: fadein 24s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 24s; /* Firefox < 16 */
+       -ms-animation: fadein 24s; /* Internet Explorer */
+        -o-animation: fadein 24s; /* Opera < 12.1 */
+           animation: fadein 24s;
+  margin-bottom: 0.2%;
+
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
