@@ -18,6 +18,15 @@
   background-color: white;
 }
 
+#video{
+  width: 50%;
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 50%;
+  min-height: 50%;
+}
+
 .word{
 font-size: 90pt;
 margin-left: 1%;
