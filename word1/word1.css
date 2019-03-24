@@ -27,6 +27,7 @@ a{
            animation: fadein 3s;
 }
 
+
 a:hover{
   opacity: 1;
 }
@@ -42,6 +43,29 @@ a:hover{
 }
 
 .link a:hover{
+  opacity: 0.75;
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
+
+#next{
+  width: 25%;
+  margin-left: 96.5%;
+  margin-top: 5%;
+  z-index: 101;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 3s; /* Firefox < 16 */
+       -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+           animation: fadein 3s;
+
+}
+
+#next a{
+  opacity: 1;
+}
+
+#next a:hover{
   opacity: 0.75;
   transition-timing-function: ease-in;
   transition: 1s;
