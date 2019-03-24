@@ -21,7 +21,22 @@
 
 .container2{
   width:50%;
-  background-color: white;
+}
+
+#next{
+  width:100%;
+  margin-left: 96%;
+  margin-top: 98%;
+  z-index: 101;
+
+}
+a{
+  text-decoration: none;
+  color: #595959
+}
+
+a:hover{
+  color: black;
 }
 
 #video{
@@ -31,6 +46,7 @@
   bottom:0;
   min-width: 50%;
   min-height: 50%;
+  z-index: -1;
 }
 
 .word{
