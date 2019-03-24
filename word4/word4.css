@@ -7,14 +7,70 @@ body{
 }
 
 .poem{
-  margin-left: 41%;
-  margin-top:15%;
+  margin-left: 42%;
+  margin-top:12%;
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein 3s; /* Firefox < 16 */
        -ms-animation: fadein 3s; /* Internet Explorer */
         -o-animation: fadein 3s; /* Opera < 12.1 */
            animation: fadein 3s;
 }
+
+a{
+  text-decoration: none;
+  color:white;
+  opacity: 0.75;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 3s; /* Firefox < 16 */
+       -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+           animation: fadein 3s;
+}
+
+
+a:hover{
+  opacity: 1;
+}
+
+.link{
+  margin-left: 2%;
+  margin-top: 2%;
+  font-size: 15pt;
+}
+
+.link a{
+  opacity: 1;
+}
+
+.link a:hover{
+  opacity: 0.75;
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
+
+#next{
+  width: 25%;
+  margin-left: 96.5%;
+  margin-top: 18%;
+  z-index: 101;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 3s; /* Firefox < 16 */
+       -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+           animation: fadein 3s;
+
+}
+
+#next a{
+  opacity: 1;
+}
+
+#next a:hover{
+  opacity: 0.75;
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }
