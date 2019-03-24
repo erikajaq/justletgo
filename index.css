@@ -6,7 +6,7 @@ body{
 .container{
   font-size: 40pt;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 23%;
   -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein 10s; /* Firefox < 16 */
        -ms-animation: fadein 10s; /* Internet Explorer */
@@ -14,14 +14,26 @@ body{
            animation: fadein 10s;
 }
 
+#video{
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 3s; /* Firefox < 16 */
+       -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+           animation: fadein 3s;
+
+}
+
 a{
   text-decoration: none;
-  color: black;
-  opacity: .75
-}
-a: hover{
-  opacity: 1;
-  color: black;
+  color: white;
+
 }
 
 
