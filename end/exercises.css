@@ -1,0 +1,60 @@
+body{
+  font-family: 'EB Garamond', serif;
+
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+
+.left{
+  width:50%;
+  display: flex;
+  text-align: left;
+}
+
+.right{
+  width:50%;
+  display: flex;
+  text-align: right;
+}
+
+
+.exercise{
+  width: 100%;
+}
+
+#title{
+  font-size: 15pt;
+}
+
+.pictureleft{
+  width:40%;
+  margin-right: 4%;
+}
+
+.pictureright{
+  width:40%;
+  margin-left: 4%;
+}
+
+.pictureleft img{
+  width:100%;
+}
+
+.pictureright img{
+  width:100%;
+}
+
+#two{
+margin-top: 60%;
+}
+
+#three{
+  margin-top: 25%;
+}
+
+#imgthree{
+  margin-top: 140%;
+}
