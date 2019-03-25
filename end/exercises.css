@@ -12,6 +12,7 @@ body{
   width:50%;
   display: flex;
   text-align: left;
+  
 }
 
 .right{
@@ -57,4 +58,60 @@ margin-top: 60%;
 
 #imgthree{
   margin-top: 140%;
+}
+
+#four{
+  margin-top:25%;
+}
+
+#imgfour{
+  margin-top: 150%;
+}
+
+#five{
+  margin-top: 47%;
+}
+
+#imgfive{
+  margin-top: 95%;
+}
+
+#six{
+  margin-top:25%;
+}
+
+#imgsix{
+  margin-top: 85%;
+}
+
+#seven{
+  margin-top: 45%;
+}
+
+#imgseven{
+margin-top: 80%;
+}
+
+#eight{
+margin-top: 35%;
+}
+
+#imgeight{
+margin-top: 55%;
+}
+
+#nine{
+margin-top: 45%;
+}
+
+#imgnine{
+margin-top: 80%;
+}
+
+#ten{
+margin-top: 70%;
+}
+
+#imgten{
+margin-top: 150%;
 }
