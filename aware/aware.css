@@ -1,11 +1,13 @@
 
 a{
   text-decoration: none;
-  color: #595959
+  color: black;
 }
 
 a:hover{
-  color: black;
+  color: #595959;
+  transition-timing-function: ease-in;
+  transition: 1s;
 }
 
 #video{
@@ -42,7 +44,6 @@ a:hover{
 }
 
 
-
 .word{
   font-size: 70pt;
   margin-left: 3%;
@@ -72,13 +73,6 @@ animation-delay: 4.5s;
   width: 80%;
 }
 
-#next{
-  width:100%;
-  z-index: 101;
-  margin-left: 95%;
-  margin-top: 5%;
-
-}
 
 /* Keyframes for the fade-in */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

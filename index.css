@@ -42,6 +42,8 @@ a{
 
 .text:hover{
   opacity:1;
+  transition-timing-function: ease-in;
+  transition: 1s;
 }
 
 

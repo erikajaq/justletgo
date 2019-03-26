@@ -61,21 +61,16 @@ animation-delay: 4.5s;
   width: 100%;
 }
 
-#next{
-  width:100%;
-  z-index: 101;
-  margin-left: 95%;
-  margin-top: -3.5%;
-
-}
 
 a{
   text-decoration: none;
-  color: #595959
+  color: black;
 }
 
 a:hover{
-  color: black;
+  color: #595959;
+  transition-timing-function: ease-in;
+  transition: 1s;
 }
 
 /* Keyframes for the fade-in */
