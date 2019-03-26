@@ -1,5 +1,6 @@
 body{
   font-family: 'EB Garamond', serif;
+  font-size: 16pt;
 
 }
 
@@ -10,7 +11,7 @@ body{
 
 
 .container{
-  width:14%;
+  width:18%;
   color:white;
   margin-left: 70%;
   margin-top: 10%;
@@ -49,10 +50,13 @@ body{
 
 a{
   text-decoration: none;
-  color:white;
+  color: white;
   opacity: 0.75;
 }
 
 a:hover{
+  color:white;
   opacity: 1;
+  transition-timing-function: ease-in;
+  transition: 1s;
 }
