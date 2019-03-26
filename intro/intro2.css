@@ -1,5 +1,6 @@
 body{
   font-family: 'EB Garamond', serif;
+  font-size: 16pt;
 }
 
 /* Keyframes for the fade-in */
@@ -126,7 +127,6 @@ body{
 
 .container5{
   width:100%;
-  margin-top: 2%;
   opacity:0;
   opacity: 1 \9; /*just in case ie*/
   -webkit-animation:fadeIn ease-in 1;
