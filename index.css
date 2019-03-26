@@ -36,19 +36,13 @@ a{
 
 }
 
+.text{
+  opacity:0.75;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.text:hover{
+  opacity:1;
+}
 
 
 
