@@ -1,5 +1,6 @@
 body{
   font-family: 'EB Garamond', serif;
+  font-size: 16pt;
 
 }
 
@@ -9,7 +10,7 @@ body{
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .container{
-  width:15%;
+  width:24%;
   color:white;
   margin-left: 70%;
   margin-top: 10%;
@@ -48,10 +49,13 @@ body{
 
 a{
   text-decoration: none;
-  color:white;
+  color: white;
   opacity: 0.75;
 }
 
 a:hover{
+  color:white;
   opacity: 1;
+  transition-timing-function: ease-in;
+  transition: 1s;
 }
