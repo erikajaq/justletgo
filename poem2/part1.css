@@ -1,6 +1,7 @@
 body{
   font-family: 'EB Garamond', serif;
   text-align: center;
+  font-size: 16pt;
 }
 
 #video{
@@ -13,10 +14,8 @@ body{
   min-height: 100%;
 }
 
-
 .container{
-  margin-top: 18%;
-  z-index: 1;
+  margin-top: 16%;
 }
 
 a{
@@ -36,7 +35,6 @@ a:hover{
        -ms-animation: fadein 4s; /* Internet Explorer */
         -o-animation: fadein 4s; /* Opera < 12.1 */
            animation: fadein 4s;
-    margin-bottom: 0.5%;
 }
 
 .line2{
@@ -45,8 +43,6 @@ a:hover{
        -ms-animation: fadein 8s; /* Internet Explorer */
         -o-animation: fadein 8s; /* Opera < 12.1 */
            animation: fadein 8s;
-  margin-bottom: 0.5%;
-
 }
 .line3{
   -webkit-animation: fadein 12s; /* Safari, Chrome and Opera > 12.1 */
@@ -54,7 +50,6 @@ a:hover{
        -ms-animation: fadein 12s; /* Internet Explorer */
         -o-animation: fadein 12s; /* Opera < 12.1 */
            animation: fadein 12s;
-  margin-bottom: 0.5%;
 }
 .line4{
   -webkit-animation: fadein 16s; /* Safari, Chrome and Opera > 12.1 */
@@ -62,8 +57,6 @@ a:hover{
        -ms-animation: fadein 16s; /* Internet Explorer */
         -o-animation: fadein 16s; /* Opera < 12.1 */
            animation: fadein 16s;
-  margin-bottom: 0.5%;
-
 }
 
 .line5{
@@ -72,6 +65,12 @@ a:hover{
        -ms-animation: fadein 20s; /* Internet Explorer */
         -o-animation: fadein 20s; /* Opera < 12.1 */
            animation: fadein 20s;
+}
+
+.button{
+  text-align: right;
+  margin-top: 20%;
+  margin-right: 1%;
 }
 
 @keyframes fadein {
