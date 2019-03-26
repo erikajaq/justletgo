@@ -1,14 +1,16 @@
 body{
   font-family: 'EB Garamond', serif;
-  background-image: url(https://i.imgur.com/WJOsQM6.jpg);
+  background-image: url(https://i.imgur.com/1MbqhXu.gif);
   background-repeat: no-repeat;
   background-size: 100%;
+  font-size: 18pt;
 
 }
 
 .container{
-  margin-left: 40%;
+  width:100%;
   margin-top: 25%;
+  text-align: center;
 
 }
 
@@ -16,7 +18,6 @@ a{
   text-decoration: none;
   color: white;
   opacity: 0.5;
-  text-align: center;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
       -moz-animation: fadein 2s; /* Firefox < 16 */
        -ms-animation: fadein 2s; /* Internet Explorer */
